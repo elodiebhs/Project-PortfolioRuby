@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   #set the welcome action as the root route
   root 'pages#welcome'
+
+  get 'welcome'=> 'pages#welcome' 
 end
